@@ -1,0 +1,106 @@
+$ Trabajo Final Autómatas 
+$ @OliverSaraguro
+$ Un analizador léxico es el componente de un compilador que se encarga de leer el código fuente
+$ y dividirlo en unidades significativas llamadas tokens. Esta es una simulación para análisis.
+
+# Declaraciones básicas
+int numero = 10
+float temperatura = 36.6
+string mensaje = "Bienvenido al sistema"
+bool activo = true
+
+$ Estructura condicional
+if numero > 5 and activo
+    mensaje = "Número válido"
+Else
+    print("Numero Invalido")
+
+if numero >= 5 and activo
+    mensaje = "Número válido"
+Else
+    print("Numero Invalido")
+
+if numero < 5 and activo
+    mensaje = "Número válido"
+Else
+    print("Numero Invalido")
+
+if numero <= 5 and activo
+    mensaje = "Número válido"
+Else
+    print("Numero Invalido")
+
+if numero == 5 and activo
+    mensaje = "Número válido"
+Else
+    print("Numero Invalido")
+
+if numero >= 5 && numero < 10 and activo
+    mensaje = "Número válido"
+Else
+    print("Numero Invalido")
+
+if numero > 5 || numero == 10 and activo
+    mensaje = "Número válido"
+Else
+    print("Numero Invalido")
+
+$ Uso de operadores lógicos en diferentes casos
+
+if activo and numero > 10
+    mensaje = "Condición con and minúscula"
+
+if activo And numero <= 20
+    mensaje = "Condición con And mayúscula"
+
+if temperatura < 37 or mensaje == "Hola"
+    mensaje = "Condición con or minúscula"
+
+if temperatura > 37 Or mensaje != "Hola"
+    mensaje = "Condición con Or mayúscula"
+
+$ Operaciones aritméticas
+int resultado = (numero * 2 + 5 - 3)/2
+print(resultado)
+
+$ Ciclo while
+while numero > 0
+    numero = numero - 1
+
+$ Comentario
+print("Hola mundo") 
+resultado = @resultado   
+
+$ Condiciones con operadores lógicos
+if not activo or temperatura >= 37.0
+    mensaje = "Revisar estado"
+
+$ Declaración con error 
+float errorNumero = 12.
+
+$ Declaración con identificador inválido
+int 2variable = 20
+
+$ Uso de palabras reservadas incorrectas
+elze
+    mensaje = "Esto está mal escrito"
+
+$ Condición con paréntesis
+if (numero < 100 and activo) or (temperatura < 40)
+    mensaje = "Condición compuesta"
+
+$ Uso de múltiples tipos de datos
+char letra = 'A'
+double promedio = 18.75
+long contador = 1000000000
+
+$ Palabras clave falsas
+init variable = 5
+int valid = !true
+
+string despedida = "Hasta luego"
+print(despedida)
+
+$ Fin del archivo de prueba para el analizador léxico
+
+@ Fin del trabajo de la materia de Autómatas y Compiladores 
