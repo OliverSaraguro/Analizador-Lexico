@@ -29,8 +29,6 @@ El analizador incluye las siguientes características:
 - Clasificación automática con estados de un autómata finito.
 - Tabla final con los resultados organizados.
 
-🔗 Enlace al repositorio de GitHub: (coloca aquí el link al repositorio)
-
 ---
 
 ## 2. Documentación
